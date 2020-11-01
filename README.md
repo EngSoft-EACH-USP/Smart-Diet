@@ -12,7 +12,7 @@ Codeclimate: [![Maintainability](https://api.codeclimate.com/v1/badges/6d4e258f9
 
 Coveralls: [![Coverage Status](https://coveralls.io/repos/github/joprcamargo/Smart-Diet/badge.svg?branch=main)](https://coveralls.io/github/joprcamargo/Smart-Diet?branch=main)
 
-[Aplicação hospedada no Heroku ](https://group8-esi.herokuapp.com//)
+[Aplicação hospedada no Heroku ](https://smartdiet.herokuapp.com/)
 
 ## Integrantes:
 
