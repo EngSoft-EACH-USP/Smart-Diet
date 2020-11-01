@@ -1,0 +1,44 @@
+  [1m[35m (9.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-11-01 19:41:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 276)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/webpacker-4.3.0/lib/webpacker/webpack_runner.rb:23:in `exec': No such file or directory - D:\\Estudos\\trab\\Smart-Diet\\node_modules\\.bin/webpack (Errno::ENOENT)
+	from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/webpacker-4.3.0/lib/webpacker/webpack_runner.rb:23:in `block in run'
+	from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/webpacker-4.3.0/lib/webpacker/webpack_runner.rb:22:in `chdir'
+	from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/webpacker-4.3.0/lib/webpacker/webpack_runner.rb:22:in `run'
+	from D:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/webpacker-4.3.0/lib/webpacker/runner.rb:6:in `run'
+	from ./bin/webpack:17:in `block in <main>'
+	from ./bin/webpack:16:in `chdir'
+	from ./bin/webpack:16:in `<main>'
+
+Completed 500 Internal Server Error in 3294ms (ActiveRecord: 0.0ms | Allocations: 18649)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-11-01 19:46:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 276)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Estudos/trab/Smart-Diet/public/packs-test
+[Webpacker] Hash: 938ecd4dac68dd2bd2ec
+Version: webpack 4.44.1
+Time: 2320ms
+Built at: 2020-11-01 19:46:28
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-31c0a7fd2aa09b742314.js    124 KiB  application  [emitted] [immutable]  application
+js/application-31c0a7fd2aa09b742314.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-31c0a7fd2aa09b742314.js js/application-31c0a7fd2aa09b742314.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6223ms (Views: 6212.3ms | ActiveRecord: 0.0ms | Allocations: 16953)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
