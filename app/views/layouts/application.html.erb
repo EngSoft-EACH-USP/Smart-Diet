@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Grupo8</title>
+    <title>Smart Diet</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,8 +11,14 @@
   </head>
 
   <body>
-
-  <div id="particles-js"> </div>
+ <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+  <%# <div id="particles-js"> </div> %>
     <%= yield %>
   </body>
 </html>

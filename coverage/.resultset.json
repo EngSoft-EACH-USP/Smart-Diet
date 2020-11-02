@@ -1,6 +1,35 @@
 {
   "RSpec": {
     "coverage": {
+      "D:/Estudos/trab/Smart-Diet/spec/calculator_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/lib/calculator.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "D:/Estudos/trab/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
         1,
         null,
@@ -336,6 +365,6 @@
         null
       ]
     },
-    "timestamp": 1604270789
+    "timestamp": 1604280963
   }
 }
