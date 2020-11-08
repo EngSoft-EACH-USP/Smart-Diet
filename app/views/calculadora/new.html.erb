@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smart Diet</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+
+<h2>Calcular calorias</h2>
+ <br>
+ 
+ <%= form_for :calculadora do |form| %>
+  <p>
+  <%=form.label :peso%><br>
+  <%=form.text_field :peso%>
+  </p>
+  <%=form.label :altura%><br>
+  <%=form.text_field :altura%>
+  </p>
+  <%=form.label :idade%><br>
+  <%=form.text_field :idade%>
+  </p>
+  <%=form.label :sexo%><br>
+  <%=form.text_field :sexo%>
+  </p>
+  <%=form.label :meta%><br>
+  <%=form.text_field :meta%>
+  </p>
+  <%=form.label :tempo%><br>
+  <%=form.text_field :tempo%>
+  </p>
+  <p>
+  <%= form.submit 'Calcular'%>
+  </p>
+<% end %>
+
+  </body>
+</html>
