@@ -5405,3 +5405,5 @@ Completed 200 OK in 72ms (Views: 65.5ms | ActiveRecord: 0.7ms | Allocations: 533
 
 DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
  (called from load at D:/Ruby27-x64/bin/rake:31)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at D:/Ruby27-x64/bin/rake:31)
