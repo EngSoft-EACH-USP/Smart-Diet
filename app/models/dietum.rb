@@ -1,0 +1,2 @@
+class Dietum < ApplicationRecord
+end

@@ -1,0 +1,33 @@
+
+<h1 class="title">Dietas</h1>
+ 
+<table id="dietas">
+  <thead>
+    <tr>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <% @dietas.each do |dietas| %>
+      <tr>
+        <h2>Nome: <%= dietas.nome %></h2>
+
+        <h3>Café da Manhã: <%= dietas.cafe %></h3>
+
+        <h3>Almoço: <%= dietas.almoco %></h3>
+
+        <h3>Lanche: <%= dietas.lanche %></h3>
+        
+        <h3>Jantar: <%= dietas.jantar %></h3>
+        
+        <h3>Bebida: <%= dietas.bebida %></h3>
+        
+        <h3>Extra: <%= dietas.extra %></h3>
+        
+        <h3>Calorias: <%= dietas.kcal %></h3>
+
+        <br/>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

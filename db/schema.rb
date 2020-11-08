@@ -10,15 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_02_191953) do
+ActiveRecord::Schema.define(version: 2020_11_07_185024) do
 
-  create_table "calculadoras", force: :cascade do |t|
-    t.integer "peso"
-    t.float "altura"
-    t.integer "idade"
-    t.integer "meta"
-    t.string "sexo"
-    t.integer "tempo"
+  create_table "dieta", force: :cascade do |t|
+    t.string "nome"
+    t.string "cafe"
+    t.string "almoco"
+    t.string "lanche"
+    t.string "jantar"
+    t.string "bebida"
+    t.string "extra"
+    t.integer "kcal"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'dieta/index'
+  get 'dieta/' => "dieta#index"
+  get 'dieta/:id' => "dieta#show"
   get 'welcome/index'
   get "/calculadora/new" => "calculadora#new"
   get "/calculadora/show" => "calculadora#show"
