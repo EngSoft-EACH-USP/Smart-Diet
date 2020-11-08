@@ -1,6 +1,5 @@
 class CreateCalculadoras < ActiveRecord::Migration[6.0]
   def change
-    drop_table :calculadoras
     create_table :calculadoras do |t|
       t.integer :peso
       t.float :altura
