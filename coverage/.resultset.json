@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
+      "D:/Estudos/trab/Smart-Diet/spec/helpers/calculadora_helper_spec.rb": [
         1,
         null,
         null,
@@ -293,6 +293,11 @@
         1,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         null
       ],
@@ -300,8 +305,105 @@
         1,
         null
       ],
+      "D:/Estudos/trab/Smart-Diet/app/helpers/calculadora_helper.rb": [
+        1,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/app/helpers/calculator_helper.rb": [
+        1,
+        null
+      ],
       "D:/Estudos/trab/Smart-Diet/app/helpers/welcome_helper.rb": [
         1,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/spec/helpers/calculator_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/spec/models/calculadora_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/lib/calculadora.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/app/models/calculadora.rb": [
+        1,
+        null,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/spec/requests/calculadora_request_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "D:/Estudos/trab/Smart-Diet/spec/requests/calculator_request_spec.rb": [
+        1,
+        null,
+        1,
+        null,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/requests/welcome_request_spec.rb": [
@@ -336,6 +438,6 @@
         null
       ]
     },
-    "timestamp": 1604270789
+    "timestamp": 1604875786
   }
 }

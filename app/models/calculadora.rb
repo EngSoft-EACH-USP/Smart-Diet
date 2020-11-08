@@ -1,0 +1,3 @@
+class Calculadora < ApplicationRecord
+    
+end
