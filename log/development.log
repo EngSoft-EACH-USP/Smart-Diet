@@ -3860,3 +3860,1546 @@ Completed 200 OK in 101ms (Views: 90.1ms | ActiveRecord: 3.5ms | Allocations: 12
   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/dieta/4" for ::1 at 2020-11-07 21:55:41 -0300
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: dynamic constant assignment
+  	render file: "#{Rails, root}/public/404.html", sta...
+  	                ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+  	render file: "#{Rails, root}/public/404.html", status: 404
+  	                           ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+...#{Rails, root}/public/404.html", status: 404
+...                              ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:00:10 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:8: syntax error, unexpected ':', expecting `end'
+  rescue_from: ActiveRecord::RecordNotFound 
+             ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+  with: "#{Rails, root}", status:404
+      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: dynamic constant assignment
+  with: "#{Rails, root}", status:404
+           ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+  with: "#{Rails, root}", status:404
+                      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:8: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:8: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:8: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:00:23 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+  with: "#{Rails, root}", status:404
+      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: dynamic constant assignment
+  with: "#{Rails, root}", status:404
+           ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+  with: "#{Rails, root}", status:404
+                      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:01:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+  with: root 'welcome#index', status...
+      ^
+):
+  
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:01:24 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+  with: root, status:404
+      ^
+):
+  
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ':', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:01:46 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 1.6ms | Allocations: 86492)
+
+
+  
+NameError (undefined local variable or method `root' for #<DietaController:0x000000000a25e360>):
+  
+app/controllers/dieta_controller.rb:9:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:02:09 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.8ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 2.2ms | Allocations: 45324)
+
+
+  
+NoMethodError (undefined method `with' for #<DietaController:0x000000000b5fd600>):
+  
+app/controllers/dieta_controller.rb:9:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:02:25 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+  "root", status:404
+        ^
+):
+  
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:02:27 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+  "root", status:404
+        ^
+):
+  
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:02:45 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+  "root" status:404
+         ^~~~~~
+):
+  
+app/controllers/dieta_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:03:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: dynamic constant assignment
+  render file: "#{Rails, root}" status:404
+                  ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+  render file: "#{Rails, root}" status:404
+                             ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:9: dynamic constant assignment
+app/controllers/dieta_controller.rb:9: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:04:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+  	file: "#{Rails, root}", status:404
+  	    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: dynamic constant assignment
+  	file: "#{Rails, root}", status:404
+  	         ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+  	file: "#{Rails, root}", status:404
+  	                    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:04:25 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+  	file: "#{Rails, root}", 404
+  	    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: dynamic constant assignment
+  	file: "#{Rails, root}", 404
+  	         ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+  	file: "#{Rails, root}", 404
+  	                    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:05:29 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 2.8ms | Allocations: 3607)
+
+
+  
+ActionView::MissingTemplate (Missing partial dieta/_not_found, application/_not_found with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:06:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.6ms | Allocations: 3527)
+
+
+  
+ActionView::MissingTemplate (Missing partial dieta/_root, application/_root with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:09:34 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: dynamic constant assignment
+  	render "#{Rails, root}"
+  	          ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+  	render "#{Rails, root}"
+  	                     ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:09:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 2.5ms | Allocations: 84695)
+
+
+  
+NameError (undefined local variable or method `root' for #<DietaController:0x000000000bc69548>):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:10:30 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.6ms | Allocations: 3436)
+
+
+  
+ActionView::MissingTemplate (Missing template dieta/root, application/root with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:10:47 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1569)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.7ms | Allocations: 6184)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:11:30 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:16: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/dieta_controller.rb:16: syntax error, unexpected `end', expecting end-of-input
+app/controllers/dieta_controller.rb:16: syntax error, unexpected `end', expecting end-of-input
+app/controllers/dieta_controller.rb:16: syntax error, unexpected `end', expecting end-of-input
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:11:46 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1293)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 3.3ms | Allocations: 3917)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:13:40 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1292)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.5ms | Allocations: 3916)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:13:48 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.6ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1292)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms | Allocations: 2494)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/1" for ::1 at 2020-11-07 22:14:00 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDieta Load (23.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 15.3ms | Allocations: 268)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 736ms (Views: 693.7ms | ActiveRecord: 23.3ms | Allocations: 26022)
+
+
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:14:06 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1292)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms | Allocations: 2496)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:14:42 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+  	render {"/index"}, status: 404
+  	                 ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:15:51 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+  	render {"/index.html"}, status: 404
+  	                      ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:15:52 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+  	render {"/index.html"}, status: 404
+  	                      ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:15:53 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+  	render {"/index.html"}, status: 404
+  	                      ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:16:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1296)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.8ms | Allocations: 3921)
+
+
+  
+ActionView::Template::Error (undefined method `nome' for nil:NilClass):
+    1: <h1 class="title"><%= @dieta.nome %></h1>
+    2:  
+    3: <table id="dieta">
+    4:   <thead>
+  
+app/views/dieta/show.html.erb:1
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:16:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+  	render {"/index.html"}, status: 404
+  	                      ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ',', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:16:46 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+... 	render {"/index.html"} status: 404
+... 	                       ^~~~~~
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:17:02 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+... 	render {"/index.html"} status: 404
+... 	                       ^~~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:14: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/dieta_controller.rb:11: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/dieta_controller.rb:14: syntax error, unexpected `end', expecting end-of-input
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:17:34 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	status: 404
+  	      ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:18:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	status: 404
+  	      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:18:13 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	status: 404
+  	      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:18:23 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 2.6ms | Allocations: 2580)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:18:24 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms | Allocations: 1310)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:18:41 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1298)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.5ms | Allocations: 3940)
+
+
+  
+ActionView::Template::Error (undefined method `nome' for nil:NilClass):
+    1: <h1 class="title"><%= @dieta.nome %></h1>
+    2:  
+    3: <table id="dieta">
+    4:   <thead>
+  
+app/views/dieta/show.html.erb:1
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:18:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected integer literal, expecting literal content or terminator or tSTRING_DBEG or tSTRING_DVAR
+  	status:404
+  	       ^~~
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected integer literal, expecting literal content or terminator or tSTRING_DBEG or tSTRING_DVAR
+app/controllers/dieta_controller.rb:11: syntax error, unexpected integer literal, expecting literal content or terminator or tSTRING_DBEG or tSTRING_DVAR
+app/controllers/dieta_controller.rb:11: syntax error, unexpected integer literal, expecting literal content or terminator or tSTRING_DBEG or tSTRING_DVAR
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:19:39 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	file: {"index"}, status: 404
+  	    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	file: {"index"}, status: 404
+  	              ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:19:50 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	file: {"index"}
+  	    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	file: {"index"}
+  	              ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:19:51 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	file: {"index"}
+  	    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	file: {"index"}
+  	              ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:19:52 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	file: {"index"}
+  	    ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	file: {"index"}
+  	              ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:20:04 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	render: {"index"}
+  	      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	render: {"index"}
+  	                ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:20:05 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	render: {"index"}
+  	      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	render: {"index"}
+  	                ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:20:06 -0300
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+  	render: {"index"}
+  	      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+  	render: {"index"}
+  	                ^
+):
+  
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+app/controllers/dieta_controller.rb:11: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:11: syntax error, unexpected '}', expecting =>
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:20:37 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1292)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.5ms | Allocations: 3917)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:21:42 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: Invalid break):
+  
+app/controllers/dieta_controller.rb:12: Invalid break
+app/controllers/dieta_controller.rb:12: Invalid break
+app/controllers/dieta_controller.rb:12: Invalid break
+app/controllers/dieta_controller.rb
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:22:05 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+  	status: 404
+  	      ^
+):
+  
+app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:22:19 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+  	status: 404
+  	      ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:15: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:15: syntax error, unexpected `end', expecting end-of-input
+app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:15: syntax error, unexpected `end', expecting end-of-input
+app/controllers/dieta_controller.rb:12: syntax error, unexpected ':', expecting `end'
+app/controllers/dieta_controller.rb:15: syntax error, unexpected `end', expecting end-of-input
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:22:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1292)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.5ms | Allocations: 3886)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:25:34 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1552)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms | Allocations: 3503)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:25:36 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1292)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms | Allocations: 2495)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:27:00 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1552)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.3ms | Allocations: 3503)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:27:01 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1293)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms | Allocations: 2496)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:27:02 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1292)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.4ms | Allocations: 2494)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:28:18 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1292)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.8ms | Allocations: 3885)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/0" for ::1 at 2020-11-07 22:28:27 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"0"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1292)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms | Allocations: 2494)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/1" for ::1 at 2020-11-07 22:28:32 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDieta Load (0.8ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 50.2ms | ActiveRecord: 0.8ms | Allocations: 11022)
+
+
+Started GET "/dieta/1" for ::1 at 2020-11-07 22:34:49 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 55.5ms | ActiveRecord: 0.4ms | Allocations: 11396)
+
+
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:34:54 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.3ms | Allocations: 44034)
+
+
+  
+NoMethodError (undefined method `index_exists?' for #<DietaController:0x000000000a0ecf90>):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:38:06 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1292)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.8ms | Allocations: 3887)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:38:13 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.7ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1292)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.7ms | Allocations: 2496)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:38:14 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1292)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 2496)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:38:45 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1292)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.5ms | Allocations: 3885)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:38:55 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1292)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.6ms | Allocations: 4298)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:39:52 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1292)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.5ms | Allocations: 3916)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:39:53 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1292)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.3ms | Allocations: 2879)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:42:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.8ms | Allocations: 3228)
+
+
+  
+ActionView::MissingTemplate (Missing template index/public/404.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:44:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.8ms | Allocations: 2950)
+
+
+  
+ActionView::MissingTemplate (Missing template index/public/404.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:44:09 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.4ms | Allocations: 1528)
+
+
+  
+ActionView::MissingTemplate (Missing template index/public/404.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:45:47 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.6ms | Allocations: 2950)
+
+
+  
+ActionView::MissingTemplate (Missing template index/public/404.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:45:49 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.4ms | Allocations: 1528)
+
+
+  
+ActionView::MissingTemplate (Missing template index/public/404.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:45:56 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/index.html.erb within layouts/application
+  Rendered dieta/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1292)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.6ms | Allocations: 3916)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:     </tr>
+     9:   </thead>
+    10:   <tbody>
+    11:     <% @dietas.each do |dietas| %>
+    12:       <tr>
+    13:         <h2>Nome: <%= dietas.nome %></h2>
+    14: 
+  
+app/views/dieta/index.html.erb:11
+app/controllers/dieta_controller.rb:11:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:47:12 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.6ms | Allocations: 4432)
+
+
+  
+NameError (uninitialized constant DietaController::RAILS_ROOT):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:47:48 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: dynamic constant assignment
+  	render :file => "#{RAILS, ROOT}/public/404.html",  :s...
+  	                   ^~~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: dynamic constant assignment
+...	render :file => "#{RAILS, ROOT}/public/404.html",  :status ...
+...	                          ^~~~
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+...render :file => "#{RAILS, ROOT}/public/404.html",  :status =...
+...                              ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+...#{RAILS, ROOT}/public/404.html",  :status => 404
+...                              ^
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: dynamic constant assignment
+app/controllers/dieta_controller.rb:10: syntax error, unexpected '}', expecting '='
+app/controllers/dieta_controller.rb:10: syntax error, unexpected string literal, expecting '}'
+app/controllers/dieta_controller.rb:12: unterminated string meets end of file
+app/controllers/dieta_controller.rb:12: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:48:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 1.5ms | Allocations: 86390)
+
+
+  
+NameError (undefined local variable or method `root' for #<DietaController:0x000000000a581330>):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:48:46 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 1.5ms | Allocations: 86310)
+
+
+  
+NameError (undefined local variable or method `rails' for #<DietaController:0x0000000010b95e28>
+Did you mean?  raise):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:48:48 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.4ms | Allocations: 85887)
+
+
+  
+NameError (undefined local variable or method `rails' for #<DietaController:0x000000000f530f98>
+Did you mean?  raise):
+  
+app/controllers/dieta_controller.rb:10:in `rescue in show'
+app/controllers/dieta_controller.rb:6:in `show'
+Started GET "/dieta/4" for ::1 at 2020-11-07 22:49:15 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 40.0ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 404 Not Found in 113ms (Views: 105.0ms | ActiveRecord: 1.6ms | Allocations: 6889)
+
+
+Started GET "/dieta/0" for ::1 at 2020-11-07 22:50:37 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"0"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.3ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 404 Not Found in 54ms (Views: 45.0ms | ActiveRecord: 1.5ms | Allocations: 6779)
+
+
+Started GET "/dieta/1" for ::1 at 2020-11-07 22:50:41 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 52.7ms | ActiveRecord: 0.3ms | Allocations: 10441)
+
+
+Started GET "/dieta/1" for ::1 at 2020-11-07 22:51:26 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering dieta/show.html.erb within layouts/application
+  Rendered dieta/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 263)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90ms (Views: 68.3ms | ActiveRecord: 2.0ms | Allocations: 12873)
+
+
+Started GET "/dieta/5" for ::1 at 2020-11-07 22:51:31 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 404 Not Found in 65ms (Views: 61.9ms | ActiveRecord: 0.5ms | Allocations: 5343)
+
+
+Started GET "/dieta/5" for ::1 at 2020-11-07 23:01:07 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.3ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 52.1ms | ActiveRecord: 0.5ms | Allocations: 13983)
+
+
+Started GET "/dieta/5" for ::1 at 2020-11-07 23:01:08 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 1.3ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 57.1ms | ActiveRecord: 0.4ms | Allocations: 5359)
+
+
+Started GET "/dieta/5" for ::1 at 2020-11-07 23:01:09 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mDieta Load (0.7ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/dieta_controller.rb:7:in `show'
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.4ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 65.5ms | ActiveRecord: 0.7ms | Allocations: 5339)
+
+
