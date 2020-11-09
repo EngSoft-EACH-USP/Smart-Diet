@@ -12,6 +12,17 @@
 
 ActiveRecord::Schema.define(version: 2020_11_07_185024) do
 
+  create_table "calculadoras", force: :cascade do |t|
+    t.integer "peso"
+    t.float "altura"
+    t.integer "idade"
+    t.integer "meta"
+    t.string "sexo"
+    t.integer "tempo"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "dieta", force: :cascade do |t|
     t.string "nome"
     t.string "cafe"
