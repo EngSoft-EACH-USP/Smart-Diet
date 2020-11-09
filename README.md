@@ -1,6 +1,6 @@
-# TBD
+# Smart Diet
 
-Projeto tem como objetivo melhorar a acessibilidade e qualidade do ead ao de forma automática legendar videos e criar um sistema de pesquisa por palavras ditas em um vídeo (retornar um time stamp a partir de uma palavra ou frase procurada pelos usuários).
+Projeto tem como objetivo sugerir uma dieta adequada e alinhada aos objetivos e características dos usuários.
 
 ## Informaçoes:
 
