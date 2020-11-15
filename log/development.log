@@ -5553,3 +5553,238 @@ Processing by CalculadoraController#new as HTML
 Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms | Allocations: 7656)
 
 
+Started GET "/" for ::1 at 2020-11-09 11:39:13 -0300
+  [1m[35m (7.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 180.8ms | Allocations: 14538)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 308ms (Views: 250.1ms | ActiveRecord: 0.7ms | Allocations: 26863)
+
+
+Started GET "/calculadoras" for ::1 at 2020-11-09 11:39:19 -0300
+Processing by CalculadoraController#index as HTML
+  Rendering calculadora/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/index.html.erb within layouts/application (Duration: 38.3ms | Allocations: 5039)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 79ms (Views: 76.5ms | ActiveRecord: 0.0ms | Allocations: 18629)
+
+
+Started GET "/calculadora" for ::1 at 2020-11-09 11:39:21 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/calculadora"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/calculadora" for ::1 at 2020-11-09 11:40:50 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/calculadora"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:41:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 38.7ms | Allocations: 4480)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 71.8ms | ActiveRecord: 0.7ms | Allocations: 13367)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:02 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 38.8ms | Allocations: 4409)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms | Allocations: 16243)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:03 -0300
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 37.1ms | Allocations: 4452)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms | Allocations: 7637)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:11 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 40.4ms | Allocations: 4458)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 82.2ms | ActiveRecord: 0.0ms | Allocations: 18261)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:20 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 38.1ms | Allocations: 4456)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms | Allocations: 8148)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:30 -0300
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 38.0ms | Allocations: 8382)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms | Allocations: 18964)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:30 -0300
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 36.4ms | Allocations: 4448)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms | Allocations: 7651)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:30 -0300
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 37.4ms | Allocations: 4446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 69.8ms | ActiveRecord: 0.0ms | Allocations: 7657)
+
+
+Started GET "/calculadora/new" for ::1 at 2020-11-09 11:44:31 -0300
+Processing by CalculadoraController#new as HTML
+  Rendering calculadora/new.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/new.html.erb within layouts/application (Duration: 37.1ms | Allocations: 4446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms | Allocations: 7641)
+
+
+Started GET "/calculadora/" for ::1 at 2020-11-09 11:44:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/calculadora"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/calculadora/" for ::1 at 2020-11-09 11:44:59 -0300
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:8:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/calculadora/" for ::1 at 2020-11-09 11:45:51 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadoraController#index as HTML
+  Rendering calculadora/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/index.html.erb within layouts/application (Duration: 39.3ms | Allocations: 4409)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms | Allocations: 7760)
+
+
+Started GET "/calculadora/" for ::1 at 2020-11-09 11:45:53 -0300
+Processing by CalculadoraController#index as HTML
+  Rendering calculadora/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered calculadora/index.html.erb within layouts/application (Duration: 37.1ms | Allocations: 4448)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 72.8ms | ActiveRecord: 0.0ms | Allocations: 7994)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at D:/Ruby27-x64/bin/rake:31)

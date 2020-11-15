@@ -1,7 +1,7 @@
 class CalculadoraController < ApplicationController
     
     def new
-        @calculadora = Calculadora.new
+        @calculadora = Calculadora.all
     end
 
     def index
