@@ -1,0 +1,3 @@
+class CalculadorasController < ApplicationController
+   
+end
