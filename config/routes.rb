@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :calculadoras
+  get "/welcome/index"
   get 'dieta/index'
   get 'dieta/' => "dieta#index"
   get 'dieta/:id' => "dieta#show"
