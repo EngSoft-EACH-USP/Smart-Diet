@@ -11,56 +11,7 @@
   </head>
 
   <body>
-  <div id="calculo">
-   <p>Peso:</p>
-  <input type="text" id="peso" name="peso"><br><br>
-  <p id="asa">Altura:</p>
-  <input type="text" id="altura" name="altura"><br><br>
-   <p>Idade:</p>
-  <input type="text" id="idade" name="idade"><br><br>
-  <p>Sexo:</p>
-  <input type="radio" id="masculino" name="sexo" value="masculino"> <label for="masculino">Masculino</label><br><br><br>
-  <input type="radio" id="feminino" name="sexo" value="feminino"> <label for="feminino">Feminino</label><br><br>
-   <p>Meta:</p>
-  <input type="text" id="meta" name="meta"><br><br>
-  <p>Tempo(Semanas):</p>
-  <input type="text" id="tempo" name="tempo"><br><br>
-   <button onclick="calculaBasal()">Calcular</button> <br>
-   </div>
- <script>
 
-function calculaBasal(){
-  const peso = document.getElementById("peso").value;
-  const altura = document.getElementById("altura").value;
-  const idade = document.getElementById("idade").value;
-  const sexo = document.getElementsByName("sexo").value;
-  const meta = document.getElementById("meta").value;
-  const tempo = document.getElementById("tempo").value;
-  const basal = 66 + (13.8 * peso) + (5 * altura) - (6.8 * idade);
-  var dif = 0;
-  var boolDif = 0; /* 0 = quer ganhar peso 1 = quer perder peso */
-  if(peso < meta){
-    boolDif = 0;
-    dif = meta - peso;
-  }
-  else if(peso > meta){
-    boolDif = 1;
-    dif = peso - meta;
-  }
-  var res = document.createElement("Label");
-  res.innerHTML = basal;
-  document.getElementById('calculo').appendChild(res);    
-
-  
-}
-
-
-
-  /*vSexo = sexo.value; */
-
-
-
-  
-</script>
+    <%= yield %>
   </body>
 </html>
