@@ -295,6 +295,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         null,
@@ -505,7 +506,7 @@
         1,
         1,
         1,
-        0,
+        1,
         null,
         null,
         null,
@@ -549,8 +550,14 @@
         1,
         null,
         null
+      ],
+      "D:/Estudos/trab/Smart-Diet/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1605565634
+    "timestamp": 1605572122
   }
 }
