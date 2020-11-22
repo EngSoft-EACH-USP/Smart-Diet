@@ -296,6 +296,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         null,
@@ -512,6 +513,18 @@
         null,
         null
       ],
+      "D:/Estudos/trab/Smart-Diet/spec/views/calculadora/index.html.erb_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "D:/Estudos/trab/Smart-Diet/spec/views/dieta/index.html.erb_spec.rb": [
         1,
         null,
@@ -558,6 +571,6 @@
         null
       ]
     },
-    "timestamp": 1605572122
+    "timestamp": 1606055896
   }
 }

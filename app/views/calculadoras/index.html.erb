@@ -1,52 +1,62 @@
-
+<h1> Smart Diet </h1><br>
+<h2> Calculadora de Calorias </h2> <br>
   <div id="calculo">
-   <p>Peso:</p>
+   <p>Peso (Quilos):</p>
   <input type="text" id="peso" name="peso"><br><br>
-  <p id="asa">Altura:</p>
+  <p id="asa">Altura (Centímetros):</p>
   <input type="text" id="altura" name="altura"><br><br>
    <p>Idade:</p>
   <input type="text" id="idade" name="idade"><br><br>
   <p>Sexo:</p>
-  <input type="radio" id="masculino" name="sexo" value="masculino"> <label for="masculino">Masculino</label><br><br><br>
+  <input type="radio" id="masculino" name="sexo" value="masculino"> <label for="masculino">Masculino</label>
   <input type="radio" id="feminino" name="sexo" value="feminino"> <label for="feminino">Feminino</label><br><br>
-   <p>Meta:</p>
+   <p>Meta (Quilos):</p>
   <input type="text" id="meta" name="meta"><br><br>
-  <p>Tempo(Semanas):</p>
+  <p>Tempo (Semanas):</p>
   <input type="text" id="tempo" name="tempo"><br><br>
    <button onclick="calculaBasal()">Calcular</button> <br>
    </div>
  <script>
 
-function calculaBasal(){
   const peso = document.getElementById("peso").value;
   const altura = document.getElementById("altura").value;
   const idade = document.getElementById("idade").value;
-  const sexo = document.getElementsByName("sexo").value;
   const meta = document.getElementById("meta").value;
   const tempo = document.getElementById("tempo").value;
-  const basal = 66 + (13.8 * peso) + (5 * altura) - (6.8 * idade);
+  var res = document.createElement("Label");
+function calculaBasal(){
+  var basal = null;
+  var calDif = null
+  var calMeta = null;
+  if(document.getElementById("masculino").checked){
+    basal = 66 + (13.8 * peso) + (5 * altura) - (6.8 * idade);
+  }
+  else if(document.getElementById("feminino").checked){
+    basal = 655 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade);
+  }
   var dif = 0;
-  var boolDif = 0; /* 0 = quer ganhar peso 1 = quer perder peso */
   if(peso < meta){
-    boolDif = 0;
     dif = meta - peso;
+    calDif = dif * 3500;
+    calMeta = basal + (calDif/tempo)/7
+    
   }
   else if(peso > meta){
-    boolDif = 1;
     dif = peso - meta;
+    calDif = dif * 3500;
+    calMeta = basal - (calDif/tempo)/7
   }
-  var res = document.createElement("Label");
-  res.innerHTML = basal;
+  res.innerHTML = "";
+  res.innerHTML = "Para atingir sua meta, deverá ingerir por dia " + calMeta;
   document.getElementById('calculo').appendChild(res);    
-
-  
 }
 
 
 
-  /*vSexo = sexo.value; */
 
 
+/* Mulher TMB = 655 + (9,6 x peso em kg.) + (1,8 x altura em cm) - (4,7 x idade em anos)*/
 
+/* Homem TMB = 66 + (13,8 x peso em kg.) + (5 x altura em cm) - (6,8 x idade em anos) */
   
 </script>
