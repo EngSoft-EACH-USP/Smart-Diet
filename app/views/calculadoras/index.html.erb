@@ -1,4 +1,4 @@
-<h1> Smart Diet </h1><br>
+<h1> Smart Diet </h1>
 <h2> Calculadora de Calorias </h2> <br>
   <div id="calculo">
    <p>Peso (Quilos):</p>
@@ -14,19 +14,25 @@
   <input type="text" id="meta" name="meta"><br><br>
   <p>Tempo (Semanas):</p>
   <input type="text" id="tempo" name="tempo"><br><br>
-   <button onclick="calculaBasal()">Calcular</button> <br>
+   <button onclick = calculaBasal()>Calcular</button> <br>
    </div>
  <script>
 
-  const peso = document.getElementById("peso").value;
-  const altura = document.getElementById("altura").value;
-  const idade = document.getElementById("idade").value;
-  const meta = document.getElementById("meta").value;
-  const tempo = document.getElementById("tempo").value;
-  var res = document.createElement("Label");
+  const res = document.createElement("Label");
+  document.getElementById('calculo').appendChild(res);    
+  res.innerHTML = null;
 function calculaBasal(){
+  let peso = document.getElementById("peso").value;
+  let altura = document.getElementById("altura").value;
+  let idade = document.getElementById("idade").value;
+  let meta = document.getElementById("meta").value;
+  let tempo = document.getElementById("tempo").value;
+  if (isNaN(peso)||isNaN(altura)||isNaN(idade)||isNaN(meta)||isNaN(tempo)){
+    res.innerHTML = "Apenas números, por favor";
+    return;
+  }
   var basal = null;
-  var calDif = null
+  var calDif = null;
   var calMeta = null;
   if(document.getElementById("masculino").checked){
     basal = 66 + (13.8 * peso) + (5 * altura) - (6.8 * idade);
@@ -35,6 +41,10 @@ function calculaBasal(){
     basal = 655 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade);
   }
   var dif = 0;
+  if(peso == meta){
+    res.innerHTML = "Você já atingiu sua meta."
+    return;
+  }else
   if(peso < meta){
     dif = meta - peso;
     calDif = dif * 3500;
@@ -46,9 +56,13 @@ function calculaBasal(){
     calDif = dif * 3500;
     calMeta = basal - (calDif/tempo)/7
   }
-  res.innerHTML = "";
-  res.innerHTML = "Para atingir sua meta, deverá ingerir por dia " + calMeta;
-  document.getElementById('calculo').appendChild(res);    
+  if(calMeta < 1000){
+  res.innerHTML = "Não é possível atingir seu objetivo no prazo";
+
+  } else{
+  res.innerHTML = "Seu metabolismo basal é de " + basal + " calorias, para atingir sua meta, deverá ingerir " + calMeta + " calorias por dia.";
+  }
+  
 }
 
 
