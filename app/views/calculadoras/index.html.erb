@@ -15,12 +15,16 @@
   <p>Tempo (Semanas):</p>
   <input type="text" id="tempo" name="tempo"><br><br>
    <button onclick = calculaBasal()>Calcular</button><br>
+   <p></p>
+   <button onclick= redirecionar(url)>Dieta Recomendada</button> <br>
    </div>
  <script>
 
   const res = document.createElement("Label");
   document.getElementById('calculo').appendChild(res);    
   res.innerHTML = null;
+  var url = null;
+
   function calculaBasal(){
     let peso = document.getElementById("peso").value;
     let altura = document.getElementById("altura").value;
@@ -75,11 +79,12 @@ function assertEqual(actual, testName) {
 
 function redirecionar(url){
  
- 
   if (url == null){
     window.location.assign("/");
     return;
   }
+
+  window.location.assign(url);
 }
 
 

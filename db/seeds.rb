@@ -6,8 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
-
    Dieta.create(nome:"Hipertrofia", cafe:"Pão com Queijo / Vitaminas / Iorgute", 
    			  almoco:"Arroz / Feijão / Batata Doce / Frango", lanche: "Vitamina / Café com Leite / Tapioca",
    			  jantar:"Arroz / Feijão / Salada de Crus",
