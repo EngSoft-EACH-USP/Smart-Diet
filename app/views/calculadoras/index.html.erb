@@ -73,7 +73,14 @@ function assertEqual(actual, testName) {
 	}
 }
 
-
+function redirecionar(url){
+ 
+ 
+  if (url == null){
+    window.location.assign("/");
+    return;
+  }
+}
 
 
 /* Mulher TMB = 655 + (9,6 x peso em kg.) + (1,8 x altura em cm) - (4,7 x idade em anos)*/
