@@ -8320,3 +8320,62 @@ Processing by CalculadorasController#index as HTML
 Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms | Allocations: 17241)
 
 
+Started GET "/" for ::1 at 2020-11-22 17:33:19 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 158)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Estudos/trab/Smart-Diet/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 2202ms
+Built at: 2020-11-22 17:33:25
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 5986ms (Views: 5982.1ms | ActiveRecord: 0.0ms | Allocations: 141861)
+
+
+Started GET "/" for ::1 at 2020-11-22 22:28:00 -0300
+  [1m[35m (16.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 26.0ms | Allocations: 398)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Estudos/trab/Smart-Diet/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 5892ms
+Built at: 2020-11-22 22:28:13
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 12756ms (Views: 12751.7ms | ActiveRecord: 0.0ms | Allocations: 238130)
+
+
+Started GET "/" for ::1 at 2020-11-22 22:28:20 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms | Allocations: 4708)
+
+
