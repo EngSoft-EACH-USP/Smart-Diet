@@ -60,8 +60,18 @@
     } else{
       res.innerHTML = "Seu metabolismo basal é de " + basal + " calorias, para atingir sua meta, deverá ingerir " + calMeta + " calorias por dia.";
     }
+    assertEqual(calMeta, "Teste Meta");
 }
 
+function assertEqual(actual, testName) {
+	if (isNaN(actual)) {
+		//log a passing message
+		console.log ('Failed: ' + testName + '; actual value: ' + actual + '; expected value: Number');
+	} else {
+		//log a failing message
+		console.log('Passed!');
+	}
+}
 
 
 

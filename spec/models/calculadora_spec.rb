@@ -1,5 +1,6 @@
 require 'calculadora.rb'
 
+
 RSpec.describe Calculadora do
 
     it 'cria calculadora de calorias' do
