@@ -65,6 +65,15 @@
       res.innerHTML = "Seu metabolismo basal é de " + basal + " calorias, para atingir sua meta, deverá ingerir " + calMeta + " calorias por dia.";
     }
     assertEqual(calMeta, "Teste Meta");
+
+    if (calMeta > 1000 && peso > meta){
+      url = "/dieta/1";
+  }
+
+    else if (calMeta > 1000 && peso < meta){
+    url = "/dieta/2";
+  }
+
 }
 
 function assertEqual(actual, testName) {
