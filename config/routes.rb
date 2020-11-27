@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'nutricionista/new'
   resources :calculadoras
   get "/welcome/index"
   get 'dieta/index'
