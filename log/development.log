@@ -8379,3 +8379,317 @@ Processing by CalculadorasController#index as HTML
 Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms | Allocations: 4708)
 
 
+Started GET "/" for ::1 at 2020-11-23 08:13:11 -0300
+  [1m[35m (9.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 416)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Estudos/trab/Smart-Diet/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 2911ms
+Built at: 2020-11-23 08:13:20
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 8547ms (Views: 8543.5ms | ActiveRecord: 0.0ms | Allocations: 163832)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:45:03 -0300
+Started GET "/" for ::1 at 2020-11-24 18:45:03 -0300
+  [1m[35m (11.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculadorasController#index as HTML
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 43.2ms | Allocations: 5128)
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 24.1ms | Allocations: 5118)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 517ms (Views: 491.5ms | ActiveRecord: 0.0ms | Allocations: 28907)
+
+
+Completed 200 OK in 506ms (Views: 487.4ms | ActiveRecord: 0.0ms | Allocations: 28333)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:45:23 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 25.6ms | Allocations: 694)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.0ms | ActiveRecord: 0.0ms | Allocations: 6558)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:45:52 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 30.0ms | Allocations: 721)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 72.9ms | ActiveRecord: 0.0ms | Allocations: 6924)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:47:07 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 727)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.0ms | Allocations: 6580)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:47:27 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 718)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms | Allocations: 6571)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:47:36 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 719)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms | Allocations: 10625)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:47:37 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 402)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 9346)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:49:39 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 32.0ms | Allocations: 791)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 80ms (Views: 78.1ms | ActiveRecord: 0.0ms | Allocations: 6642)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:50:54 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 27.3ms | Allocations: 801)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 75.1ms | ActiveRecord: 0.0ms | Allocations: 7971)
+
+
+Started GET "/" for ::1 at 2020-11-24 18:54:52 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 795)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 6942)
+
+
+Started GET "/" for ::1 at 2020-11-24 19:00:39 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 795)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 6645)
+
+
+Started GET "/" for ::1 at 2020-11-24 19:00:40 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 438)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 5392)
+
+
+Started GET "/" for ::1 at 2020-11-24 19:00:40 -0300
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 5388)
+
+
+Started GET "/search?peso=58&altura=58&idade=58&sexo=masculino&meta=58&tempo=58&commit=Calcular" for ::1 at 2020-11-24 19:00:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-11-24 19:01:52 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 176)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 6012)
+
+
+Started GET "/" for ::1 at 2020-12-01 20:07:56 -0300
+  [1m[35m (11.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 28.4ms | Allocations: 417)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Estudos/trab/Smart-Diet/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 7838ms
+Built at: 2020-12-01 20:08:15
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 18285ms (Views: 18210.7ms | ActiveRecord: 0.0ms | Allocations: 342625)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-01 20:08:26 -0300
+Processing by NutricionistaController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2456)
+
+
+  
+NameError (uninitialized constant NutricionistaController::Nutricionista
+Did you mean?  NutricionistaHelper):
+  
+app/controllers/nutricionista_controller.rb:4:in `new'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at D:/Ruby27-x64/bin/rake:31)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at D:/Ruby27-x64/bin/rake:31)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at D:/Ruby27-x64/bin/rake:31)
+Started GET "/" for ::1 at 2020-12-03 21:38:21 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.4) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.4) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateNutricionista (20201201232946)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "nutricionista" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" text, "crn" integer, "email" text, "exp" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20201201232946"]]
+  [1m[35m (132.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-03 21:38:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CalculadorasController#index as HTML
+  Rendering calculadoras/index.html.erb within layouts/application
+  Rendered calculadoras/index.html.erb within layouts/application (Duration: 29.0ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 319ms (Views: 315.2ms | ActiveRecord: 0.0ms | Allocations: 11489)
+
+
+Started GET "/nutricionista" for ::1 at 2020-12-03 21:39:01 -0300
+Processing by NutricionistaController#index as HTML
+  Rendering nutricionista/index.html.erb within layouts/application
+  Rendered nutricionista/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 5785)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-03 21:39:05 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 672)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 63ms (Views: 39.5ms | ActiveRecord: 0.7ms | Allocations: 10398)
+
+
