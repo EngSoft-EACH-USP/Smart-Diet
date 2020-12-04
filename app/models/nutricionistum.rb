@@ -1,0 +1,3 @@
+class Nutricionistum < ApplicationRecord
+
+end

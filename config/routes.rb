@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'nutricionista/new'
-  resources :calculadoras
+  resources :calculadoras, :nutricionista
   get "/welcome/index"
   get 'dieta/index'
   get 'dieta/' => "dieta#index"

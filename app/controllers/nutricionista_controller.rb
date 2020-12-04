@@ -1,4 +1,9 @@
 class NutricionistaController < ApplicationController
-  def new
-  end
+  
+ def new
+  @nutricionista = Nutricionistum.new
+ end
+ 
+ def index 
+ end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_07_185024) do
+ActiveRecord::Schema.define(version: 2020_12_01_232946) do
 
   create_table "calculadoras", force: :cascade do |t|
     t.integer "peso"
@@ -32,6 +32,15 @@ ActiveRecord::Schema.define(version: 2020_11_07_185024) do
     t.string "bebida"
     t.string "extra"
     t.integer "kcal"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "nutricionista", force: :cascade do |t|
+    t.text "nome"
+    t.integer "crn"
+    t.text "email"
+    t.integer "exp"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
