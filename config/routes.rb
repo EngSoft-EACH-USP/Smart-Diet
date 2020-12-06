@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :calculadoras, :nutricionista
+
+  resources :calculadoras, :nutricionista, :consulta
+
   get "/welcome/index"
   get "/calculadoras/index"
   get "/calculadora/" => 'calculadoras#index'
