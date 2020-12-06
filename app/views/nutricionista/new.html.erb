@@ -1,12 +1,14 @@
 <h1> Smart Diet </h1>
 <h2> Cadastro de nutricionista </h2>
-<%= form_with model: @nutricionista do |nutricionista| %> <br> <br>
-  <%= label_tag(:nome, "Nome:") %> <br> <br>
-  <%= text_field_tag(:nome) %> <br> <br>
-  <%= label_tag(:crn, "CRN:") %> <br> <br>
-  <%= text_field_tag(:crn) %> <br> <br>
-  <%= label_tag(:email, "E-mail:") %> <br> <br>
-  <%= text_field_tag(:email) %> <br> <br>
-  <%= label_tag(:exp, "Experiência na área(anos):") %> <br> <br>
-  <%= text_field_tag(:exp) %> <br> <br>
+ <%= form_with model: @nutricionista do |n| %> <br> <br>
+  <%= n.label :nome %> <br> <br>
+  <%= n.text_field :nome %> <br> <br>
+  <%= n.label :id %> <br> <br>
+  <%= n.text_field :id %> <br> <br>
+  <%= n.label :email %> <br> <br>
+  <%= n.text_field :email %> <br> <br>
+  <%= n.label :exp %> <br> <br>
+  <%= n.text_field :exp %> <br> <br> <br>
+  <%= n.submit "Cadastrar" %>
+  <%= params.inspect %>
 <% end %>
