@@ -13,9 +13,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/rails_helper.rb": [
@@ -344,9 +341,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/helpers/calculator_helper_spec.rb": [
@@ -361,9 +355,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/helpers/dieta_helper_spec.rb": [
@@ -378,9 +369,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/helpers/nutricionista_helper_spec.rb": [
@@ -395,9 +383,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
@@ -412,9 +397,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/models/calculadora_spec.rb": [
@@ -460,33 +442,51 @@
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/models/dieta_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/app/models/dieta.rb": [
-        1,
-        null
+        1
       ],
       "D:/Estudos/trab/Smart-Diet/spec/models/dietum_spec.rb": [
+        1
+      ],
+      "D:/Estudos/trab/Smart-Diet/spec/models/nutricionista_spec.rb": [
         1,
         null,
         1,
         1,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/app/models/dietum.rb": [
         1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
         null
-      ],
-      "D:/Estudos/trab/Smart-Diet/spec/models/nutricionista_spec.rb": [
-        1
       ],
       "D:/Estudos/trab/Smart-Diet/app/models/nutricionistum.rb": [
         1,
-        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/requests/calculadora_request_spec.rb": [
@@ -572,25 +572,13 @@
         null
       ],
       "D:/Estudos/trab/Smart-Diet/spec/views/dieta/index.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+        1
       ],
       "D:/Estudos/trab/Smart-Diet/spec/views/dieta/show.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+        1
       ],
       "D:/Estudos/trab/Smart-Diet/spec/views/welcome/index.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+        1
       ],
       "D:/Estudos/trab/Smart-Diet/app/controllers/application_controller.rb": [
         1,
@@ -610,17 +598,22 @@
         null,
         null
       ],
+      "D:/Estudos/trab/Smart-Diet/app/models/dieta.rb": [
+        1,
+        null
+      ],
       "D:/Estudos/trab/Smart-Diet/app/controllers/nutricionista_controller.rb": [
         1,
         null,
         1,
         1,
-        null,
-        null,
         1,
         null,
         null,
         1,
+        null,
+        null,
+        1,
         0,
         null,
         null,
@@ -631,6 +624,11 @@
         null,
         0,
         null,
+        null,
+        null,
+        null,
+        1,
+        0,
         null,
         null,
         null
@@ -642,6 +640,6 @@
         null
       ]
     },
-    "timestamp": 1607269519
+    "timestamp": 1607293875
   }
 }
