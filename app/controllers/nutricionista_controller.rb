@@ -2,6 +2,7 @@ class NutricionistaController < ApplicationController
   
  def new
   @nutricionista = Nutricionistum.new
+  puts params.inspect
  end
  
  def index 
@@ -22,7 +23,7 @@ end
 
 
         private def nutricionista_params
-            params.require(:nutricionista).permit(:nome, :id, :email, :exp)
+            params.require(:nutricionistum).permit(:nome, :id, :email, :exp)
         end   
 
 end

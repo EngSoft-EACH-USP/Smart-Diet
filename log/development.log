@@ -10041,3 +10041,1401 @@ ActionController::ParameterMissing (param is missing or the value is empty: nutr
   
 app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
 app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/1" for ::1 at 2020-12-06 12:28:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNutricionistum Load (0.3ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:11:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1239)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum with 'id'=1):
+  
+app/controllers/nutricionista_controller.rb:11:in `show'
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:28:53 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"G67eRCm3kzwOQQLvLv4AL+sxeKRAE+RE23QSED5KCrXt7gQ/AKeEq+S0EZ2bkpgYArU5pM9KIt2TE84xYUF41A==", "nutricionistum"=>{"nome"=>"João", "id"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 636)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:31:40 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 520)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Estudos/trab/Smart-Diet/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 2014ms
+Built at: 2020-12-06 12:31:45
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 5753ms (Views: 5732.4ms | ActiveRecord: 0.7ms | Allocations: 163547)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:31:52 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"N611u/qPIMHvRauMUj8Kn+++Sw6+unBbT7e66mlCrrnB7a/A0583VgWwuP7nU5KoBjoKDjHjtsIH0GbLNknc2A==", "nutricionistum"=>{"nome"=>"João", "id"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 642)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, Symbol passed.):
+  
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:32:00 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"N611u/qPIMHvRauMUj8Kn+++Sw6+unBbT7e66mlCrrnB7a/A0583VgWwuP7nU5KoBjoKDjHjtsIH0GbLNknc2A==", "nutricionistum"=>{"nome"=>"João", "id"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 642)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, Symbol passed.):
+  
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:36:50 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 328.2ms | Allocations: 83655)
+Completed 500 Internal Server Error in 335ms (ActiveRecord: 0.0ms | Allocations: 84945)
+
+
+  
+ActionView::Template::Error (undefined method `label_tag' for #<ActionView::Helpers::FormBuilder:0x000000000a3f2460>
+Did you mean?  label):
+     5:   <%= n.text_field :nome %> <br> <br>
+     6:   <%= n.label :id %> <br> <br>
+     7:   <%= n.text_field :id %> <br> <br>
+     8:   <%= n.label_tag :email %> <br> <br>
+     9:   <%= n.text_field :email %> <br> <br>
+    10:   <%= n.label_tag :exp %> <br> <br>
+    11:   <%= n.text_field :exp %> <br> <br> <br>
+  
+app/views/nutricionista/new.html.erb:8
+app/views/nutricionista/new.html.erb:3
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:37:02 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1233)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.0ms | Allocations: 6987)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:37:17 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms | Allocations: 7253)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:40:36 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1171)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 7226)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:40:43 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"qbNN6ad9rVEzz/nQCDYwMt6xFBwgycNYYS36KRZ0XZVf85eSjm26xtk66qK9WqgFNzVVHK+QBcEpSiYISX8v9A==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, Symbol passed.):
+  
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:40:48 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"qbNN6ad9rVEzz/nQCDYwMt6xFBwgycNYYS36KRZ0XZVf85eSjm26xtk66qK9WqgFNzVVHK+QBcEpSiYISX8v9A==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, Symbol passed.):
+  
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:41:10 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1130)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 2307)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Smart Diet </h1>
+<h2> Cadastro de nutricionista </h2>
+<%= form_with (model: @nutricionista, local: true) do |n| %> <br> <br>
+  <%= n.label :nome %> <br> <br>
+  <%= n.text_field :nome %> <br> <br>
+  <%= n.label :crn %> <br> <br>
+  <%= n.text_field :crn %> <br> <br>
+  <%= n.label :email %> <br> <br>
+  <%= n.text_field :email %> <br> <br>
+  <%= n.label :exp %> <br> <br>
+  <%= n.text_field :exp %> <br> <br> <br>
+  <%= n.submit "Cadastrar"%>
+<% end %>
+):
+1:    <h1> Smart Diet </h1>
+2:    <h2> Cadastro de nutricionista </h2>
+3:    <%= form_with (model: @nutricionista, local: true) do |n| %> <br> <br>
+4:      <%= n.label :nome %> <br> <br>
+5:      <%= n.text_field :nome %> <br> <br>
+6:      <%= n.label :crn %> <br> <br>
+7:      <%= n.text_field :crn %> <br> <br>
+8:      <%= n.label :email %> <br> <br>
+9:      <%= n.text_field :email %> <br> <br>
+10:      <%= n.label :exp %> <br> <br>
+11:      <%= n.text_field :exp %> <br> <br> <br>
+12:      <%= n.submit "Cadastrar"%>
+13:    <% end %>
+  
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:42:37 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1130)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2288)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Smart Diet </h1>
+<h2> Cadastro de nutricionista </h2>
+<%= form_with (model: @nutricionista, local: true) do |n| %> <br> <br>
+  <%= n.label :nome %> <br> <br>
+  <%= n.text_field :nome %> <br> <br>
+  <%= n.label :crn %> <br> <br>
+  <%= n.text_field :crn %> <br> <br>
+  <%= n.label :email %> <br> <br>
+  <%= n.text_field :email %> <br> <br>
+  <%= n.label :exp %> <br> <br>
+  <%= n.text_field :exp %> <br> <br> <br>
+  <%= n.submit "Cadastrar" %>
+<% end %>
+):
+1:    <h1> Smart Diet </h1>
+2:    <h2> Cadastro de nutricionista </h2>
+3:    <%= form_with (model: @nutricionista, local: true) do |n| %> <br> <br>
+4:      <%= n.label :nome %> <br> <br>
+5:      <%= n.text_field :nome %> <br> <br>
+6:      <%= n.label :crn %> <br> <br>
+7:      <%= n.text_field :crn %> <br> <br>
+8:      <%= n.label :email %> <br> <br>
+9:      <%= n.text_field :email %> <br> <br>
+10:      <%= n.label :exp %> <br> <br>
+11:      <%= n.text_field :exp %> <br> <br> <br>
+12:      <%= n.submit "Cadastrar" %>
+13:    <% end %>
+  
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+Started GET "/nutricionista/" for ::1 at 2020-12-06 12:42:41 -0300
+Processing by NutricionistaController#index as HTML
+  Rendering nutricionista/index.html.erb within layouts/application
+  Rendered nutricionista/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 5504)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:42:44 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1115)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1548)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Smart Diet </h1>
+<h2> Cadastro de nutricionista </h2>
+<%= form_with (model: @nutricionista, local: true) do |n| %> <br> <br>
+  <%= n.label :nome %> <br> <br>
+  <%= n.text_field :nome %> <br> <br>
+  <%= n.label :crn %> <br> <br>
+  <%= n.text_field :crn %> <br> <br>
+  <%= n.label :email %> <br> <br>
+  <%= n.text_field :email %> <br> <br>
+  <%= n.label :exp %> <br> <br>
+  <%= n.text_field :exp %> <br> <br> <br>
+  <%= n.submit "Cadastrar" %>
+<% end %>
+):
+1:    <h1> Smart Diet </h1>
+2:    <h2> Cadastro de nutricionista </h2>
+3:    <%= form_with (model: @nutricionista, local: true) do |n| %> <br> <br>
+4:      <%= n.label :nome %> <br> <br>
+5:      <%= n.text_field :nome %> <br> <br>
+6:      <%= n.label :crn %> <br> <br>
+7:      <%= n.text_field :crn %> <br> <br>
+8:      <%= n.label :email %> <br> <br>
+9:      <%= n.text_field :email %> <br> <br>
+10:      <%= n.label :exp %> <br> <br>
+11:      <%= n.text_field :exp %> <br> <br> <br>
+12:      <%= n.submit "Cadastrar" %>
+13:    <% end %>
+  
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+app/views/nutricionista/new.html.erb:3: syntax error, unexpected tLABEL, expecting ')'
+app/views/nutricionista/new.html.erb:15: syntax error, unexpected `end', expecting end-of-input
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:47:39 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 7231)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:50:08 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 944)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms | Allocations: 6113)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:50:13 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"DtLwN+TkgZ2pEMpkCZtVJtGWLJRrPvbFN0apTPjtekz4kipMzfSWCkPl2Ra8980ROBJtlORnMFx/IXVtp+YILQ==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 634)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, Symbol passed.):
+  
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:55:33 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 45.9ms | ActiveRecord: 0.7ms | Allocations: 10365)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:55:38 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"MWinu78YsxsXWoFvTo+v6d92os4g3kiYIQQefxQJz9/HKH3AlgikjP2vkh374zfeNvLjzq+HjgFpY8JeSwK9vg==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:56:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 43.9ms | ActiveRecord: 0.7ms | Allocations: 15249)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:56:13 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"93XTxLL8QYKV1TlpddyqZhUML4urmnCpi5y0Pf103QoBNQm/m+xWFX8gKhvAsDJR/IhuiyTDtjDD+2gcon+vaw==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 625)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: crn):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started POST "/nutricionista" for ::1 at 2020-12-06 12:56:33 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"93XTxLL8QYKV1TlpddyqZhUML4urmnCpi5y0Pf103QoBNQm/m+xWFX8gKhvAsDJR/IhuiyTDtjDD+2gcon+vaw==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 625)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: crn):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:58:52 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1134)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 2292)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    1: <h1> Smart Diet </h1>
+    2: <h2> Cadastro de nutricionista </h2>
+    3:  <%= form_with @nutricionista do |n| %> <br> <br>
+    4:   <%= n.label :nome %> <br> <br>
+    5:   <%= n.text_field :nome %> <br> <br>
+    6:   <%= n.label :crn %> <br> <br>
+  
+app/views/nutricionista/new.html.erb:3
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 12:59:04 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1095)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 2253)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    1: <h1> Smart Diet </h1>
+    2: <h2> Cadastro de nutricionista </h2>
+    3:  <%= form_with(@nutricionista) do |n| %> <br> <br>
+    4:   <%= n.label :nome %> <br> <br>
+    5:   <%= n.text_field :nome %> <br> <br>
+    6:   <%= n.label :crn %> <br> <br>
+  
+app/views/nutricionista/new.html.erb:3
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:01:56 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1765)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 51.7ms | ActiveRecord: 0.7ms | Allocations: 16058)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:01:58 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 944)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms | Allocations: 6439)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:02:01 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"3Xte5NYICFhWOywVF3cuVNqp493KbGwyDFLqQDHIAYwrO4Sf/xgfz7zOP2eiG7ZjMy2i3UU1qqtENTZhbsNz7Q==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 627)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: crn):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:03:42 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 817)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: crn):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:4:in `new'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:04:02 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms | Allocations: 4711)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, Symbol passed.):
+  
+app/controllers/nutricionista_controller.rb:4:in `new'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:04:37 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 43.3ms | ActiveRecord: 0.7ms | Allocations: 19675)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:04:42 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"O5/FBcRP/GVjf1dJ2jxNWwQrP+63MzKdhia/YO8HclHN3x9+7V/r8omKRDtvUNVs7a9+7jhq9ATOQWNBsAwAMA==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: crn):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:06:15 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 45.2ms | ActiveRecord: 0.7ms | Allocations: 10366)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:06:20 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"Bo4unxIN6sxYcbddwvNE0JrxHxEoDyThNDQZecDImBPwzvTkOx39W7KEpC93n9znc3VeEadW4nh8U8VYn8Pqcg==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 639)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:07:43 -0300
+  [1m[35m (11.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 118.3ms | Allocations: 3178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 824ms (Views: 747.2ms | ActiveRecord: 0.8ms | Allocations: 50648)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:08:23 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 945)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 6105)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:08:26 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 939)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 6102)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:08:34 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"IqEkCOXAyAwSEi3UbwqEc0aG2/re+8grC5S+DZYnVwnU4f5zzNDfm/jnPqbaZhxErwKa+lGiDrJD82IsySwlaA==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 642)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:13:27 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1228)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.0ms | Allocations: 7375)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:13:39 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"qsz8SiZjKXrC6xT6DKrvuKwxf6MDasny9XI2pWOs/dFcjCYxD3M+7SgeB4i5xnePRbU+o4wzD2u9FeqEPKePsA==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:15:25 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (D:/Estudos/trab/Smart-Diet/app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+        end   
+        ^~~
+):
+  
+app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:15:54 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (D:/Estudos/trab/Smart-Diet/app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+        end   
+        ^~~
+):
+  
+app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+app/controllers/nutricionista_controller.rb:26: syntax error, unexpected `end', expecting ')'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:16:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1030)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 44.8ms | ActiveRecord: 0.7ms | Allocations: 10434)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:16:21 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"R4vnsyGwLuYgld9kNKlq9ZZWLZMM8rlsWKVSTiuH0NOxyz3ICKA5ccpgzBaBxfLCf9Jsk4Orf/UQwo5vdIyisg==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 626)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: crn):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:25:00 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1026)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 0.0ms | Allocations: 10269)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:25:02 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 956)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 6109)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:25:02 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 956)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms | Allocations: 12142)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:25:08 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"wEQXL+kNJn/NJTzlMDR6/Z0XHxucRMui2w2j9JpX0uc2BM1UwB0x6CfQL5eFWOLKdJNeGxMdDTuTan/VxVyghg==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:25:14 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"wEQXL+kNJn/NJTzlMDR6/Z0XHxucRMui2w2j9JpX0uc2BM1UwB0x6CfQL5eFWOLKdJNeGxMdDTuTan/VxVyghg==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:30:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1026)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 101ms (Views: 41.2ms | ActiveRecord: 0.7ms | Allocations: 11721)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:30:32 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"QyzQ0OIwwv+PDAv+fbBouXAvKUcK7ysm+F5BISqHNya1bAqryyDVaGX5GIzI3PCOmatoR4W27b+wOZ0AdYxFRw==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 625)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:30:37 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"QyzQ0OIwwv+PDAv+fbBouXAvKUcK7ysm+F5BISqHNya1bAqryyDVaGX5GIzI3PCOmatoR4W27b+wOZ0AdYxFRw==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 625)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:25:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:15:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:32:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1017)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 40.9ms | ActiveRecord: 0.7ms | Allocations: 10838)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:32:38 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 947)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 6118)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:32:39 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 947)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 6111)
+
+
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:32:40 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 947)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 6124)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:32:51 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"D7sIs6yOKow5Uy6oCvPYAwRYqexBKYm3kqsRMw9wJ5v5+9LIhZ49G9OmPdq/n0A07dzo7M5wTy7azM0SUHtV+g==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: nutricionista):
+  
+app/controllers/nutricionista_controller.rb:26:in `nutricionista_params'
+app/controllers/nutricionista_controller.rb:16:in `create'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:33:31 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1017)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 40.7ms | ActiveRecord: 0.7ms | Allocations: 10852)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:33:37 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"51tS54qWjo/dG/8eE/zjaS321gKmIlzlE1RuMJP+IaIRG4ico4aZGDfu7GymkHtexHKXAil7mnxbM7IRzPVTww==", "nutricionistum"=>{"nome"=>"João", "crn"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+  [1m[36mNutricionistum Create (27.0ms)[0m  [1m[32mINSERT INTO "nutricionista" ("nome", "crn", "email", "exp", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "João"], ["crn", 123123], ["email", "jpsalve@gmail.com"], ["exp", 12], ["created_at", "2020-12-06 16:33:37.221581"], ["updated_at", "2020-12-06 16:33:37.221581"]]
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+  [1m[35m (80.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+Redirected to http://localhost:3000/nutricionista/1
+Completed 200 OK in 141ms (ActiveRecord: 107.9ms | Allocations: 3483)
+
+
+Started GET "/nutricionista/1" for ::1 at 2020-12-06 13:33:37 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 404 Not Found in 23ms (ActiveRecord: 0.0ms | Allocations: 1230)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum without an ID):
+  
+app/controllers/nutricionista_controller.rb:12:in `show'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:33:55 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 947)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms | Allocations: 6120)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:34:00 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"7ApcG37nADeqMckl7sF0dtA3KEsuyph3hpOp6ASJsSwaSoZgV/cXoEDE2ldbrexBObNpS6GTXu7O9HXJW4LDTQ==", "nutricionistum"=>{"nome"=>"João", "crn"=>"1", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+  [1m[36mNutricionistum Create (1.0ms)[0m  [1m[32mINSERT INTO "nutricionista" ("nome", "crn", "email", "exp", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "João"], ["crn", 1], ["email", "jpsalve@gmail.com"], ["exp", 12], ["created_at", "2020-12-06 16:34:00.994114"], ["updated_at", "2020-12-06 16:34:00.994114"]]
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+  [1m[35m (97.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+Redirected to http://localhost:3000/nutricionista/2
+Completed 200 OK in 107ms (ActiveRecord: 99.0ms | Allocations: 3124)
+
+
+Started GET "/nutricionista/2" for ::1 at 2020-12-06 13:34:01 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 612)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum without an ID):
+  
+app/controllers/nutricionista_controller.rb:12:in `show'
+Started GET "/nutricionista/2" for ::1 at 2020-12-06 13:34:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNutricionistum Load (0.1ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+Completed 406 Not Acceptable in 26ms (ActiveRecord: 0.8ms | Allocations: 7736)
+
+
+  
+ActionController::MissingExactTemplate (NutricionistaController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/nutricionista/2" for ::1 at 2020-12-06 13:34:20 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 404 Not Found in 4ms (ActiveRecord: 0.7ms | Allocations: 2035)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum without an ID):
+  
+app/controllers/nutricionista_controller.rb:12:in `show'
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:34:55 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 611)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum without an ID):
+  
+app/controllers/nutricionista_controller.rb:12:in `show'
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:35:28 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.1ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.8ms | Allocations: 2582)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum with 'id'=123123):
+  
+app/controllers/nutricionista_controller.rb:12:in `show'
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:35:32 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.2ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+Completed 404 Not Found in 8ms (ActiveRecord: 0.2ms | Allocations: 1078)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Nutricionistum with 'id'=123123):
+  
+app/controllers/nutricionista_controller.rb:12:in `show'
+Started GET "/nutricionista/new" for ::1 at 2020-12-06 13:35:36 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 57.2ms | ActiveRecord: 0.0ms | Allocations: 10521)
+
+
+Started POST "/nutricionista" for ::1 at 2020-12-06 13:35:41 -0300
+Processing by NutricionistaController#create as JS
+  Parameters: {"authenticity_token"=>"3TgFFbnDDl6jdEOHHXDZoRs+vSSdVo+tyB9e7WPEbRcreN9ukNMZyUmBUPWoHEGW8rr8JBIPSTSAeILMPM8fdg==", "nutricionistum"=>{"nome"=>"João", "id"=>"123123", "email"=>"jpsalve@gmail.com", "exp"=>"12"}, "commit"=>"Cadastrar"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+  [1m[36mNutricionistum Create (1.1ms)[0m  [1m[32mINSERT INTO "nutricionista" ("id", "nome", "email", "exp", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 123123], ["nome", "João"], ["email", "jpsalve@gmail.com"], ["exp", 12], ["created_at", "2020-12-06 16:35:41.156140"], ["updated_at", "2020-12-06 16:35:41.156140"]]
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+  [1m[35m (119.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/nutricionista_controller.rb:17:in `create'
+Redirected to http://localhost:3000/nutricionista/123123
+Completed 200 OK in 133ms (ActiveRecord: 120.4ms | Allocations: 2907)
+
+
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:35:41 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.2ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+Completed 406 Not Acceptable in 25ms (ActiveRecord: 0.2ms | Allocations: 2459)
+
+
+  
+ActionController::MissingExactTemplate (NutricionistaController#show is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:36:10 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.2ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+  Rendering nutricionista/show.html.erb within layouts/application
+  Rendered nutricionista/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 60ms (Views: 55.4ms | ActiveRecord: 0.2ms | Allocations: 6651)
+
+
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:38:11 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.2ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+  Rendering nutricionista/show.html.erb within layouts/application
+  Rendered nutricionista/show.html.erb within layouts/application (Duration: 6.4ms | Allocations: 187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 61.9ms | ActiveRecord: 0.2ms | Allocations: 6760)
+
+
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:38:34 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.1ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+  Rendering nutricionista/show.html.erb within layouts/application
+  Rendered nutricionista/show.html.erb within layouts/application (Duration: 6.1ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 61.9ms | ActiveRecord: 0.1ms | Allocations: 6774)
+
+
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:38:40 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.2ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+  Rendering nutricionista/show.html.erb within layouts/application
+  Rendered nutricionista/show.html.erb within layouts/application (Duration: 6.0ms | Allocations: 179)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 52.3ms | ActiveRecord: 0.2ms | Allocations: 6758)
+
+
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:38:48 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.1ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+  Rendering nutricionista/show.html.erb within layouts/application
+  Rendered nutricionista/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.1ms | Allocations: 13642)
+
+
+Started GET "/nutricionista/123123" for ::1 at 2020-12-06 13:39:30 -0300
+Processing by NutricionistaController#show as HTML
+  Parameters: {"id"=>"123123"}
+  [1m[36mNutricionistum Load (0.1ms)[0m  [1m[34mSELECT "nutricionista".* FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 123123], ["LIMIT", 1]]
+  ↳ app/controllers/nutricionista_controller.rb:12:in `show'
+  Rendering nutricionista/show.html.erb within layouts/application
+  Rendered nutricionista/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 57.7ms | ActiveRecord: 0.1ms | Allocations: 6750)
+
+
+Started GET "/welcome/index" for ::1 at 2020-12-06 13:39:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.1ms | ActiveRecord: 0.0ms | Allocations: 5766)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/index.css"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/calculadora" for ::1 at 2020-12-06 13:39:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/calculadora"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2020-12-06 13:39:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 5145)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/index.css"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/nutricionista/new" for ::1 at 2020-12-06 13:39:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/nutricionista/new"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2020-12-06 13:39:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 5142)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/index.css"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2020-12-06 13:39:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 5133)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/index.css"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2020-12-06 13:39:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 5132)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/index.css"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.3.4) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.3.4) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/welcome/calculadora" for ::1 at 2020-12-06 13:39:56 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/calculadora"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
