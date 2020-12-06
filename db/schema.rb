@@ -23,17 +23,6 @@ ActiveRecord::Schema.define(version: 2020_12_06_032453) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "consulta", force: :cascade do |t|
-    t.string "nome"
-    t.string "sexo"
-    t.integer "idade"
-    t.string "email"
-    t.string "profissional"
-    t.text "descricao"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "dieta", force: :cascade do |t|
     t.string "nome"
     t.string "cafe"
@@ -43,6 +32,17 @@ ActiveRecord::Schema.define(version: 2020_12_06_032453) do
     t.string "bebida"
     t.string "extra"
     t.integer "kcal"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "consulta", force: :cascade do |t|
+    t.string "nome"
+    t.string "sexo"
+    t.string "email"
+    t.string "profissional"
+    t.text "descricao"
+    t.integer "idade"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

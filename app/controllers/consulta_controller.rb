@@ -10,10 +10,6 @@ class ConsultaController < ApplicationController
   # GET /consulta/1
   # GET /consulta/1.json
   def show
-    @consulta1 = Consultum.find(params[:id])
-  
-  rescue ActiveRecord::RecordNotFound
-    render :file => "#{Rails.root}/public/404.html",  :status => 200
   end
 
   # GET /consulta/new
