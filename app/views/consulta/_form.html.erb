@@ -1,0 +1,56 @@
+<%= form_with(model: consultum, local: true) do |form| %>
+  <% if consultum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(consultum.errors.count, "error") %> prohibited this consultum from being saved:</h2>
+
+      <ul>
+        <% consultum.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nome %>
+    <%= form.text_field :nome, required: true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sexo %>
+    <p></p>
+    <%= form.radio_button(:sexo, "Masculino", :checked => "checked") %>
+    <%= label_tag(:sexo_masc, 'Masculino') %>
+    <%= form.radio_button(:sexo, "Feminino") %>
+    <%= label_tag(:sexo_fem, 'Feminino') %>
+  </div>
+
+  <div class="field">
+
+    <%= form.label :idade %>
+    <%= form.number_field :idade, max: 130, min: 14, required: true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, required: true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :profissional %>
+    <p></p>
+    <%= form.radio_button(:profissional, "Nutricionista", :checked => "checked") %>
+    <%= label_tag(:pro_nutri, 'Nutricionista') %>
+    <%= form.radio_button(:profissional, "Personal_Trainer") %>
+    <%= label_tag(:personal, 'Personal Trainer') %>
+  </div>
+
+  <div class="field">
+    <%= form.label :descricao %>
+    <%= form.text_area :descricao, size: "50x10", required: true  %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

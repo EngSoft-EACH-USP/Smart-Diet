@@ -1,22 +1,25 @@
-<h1> Smart Diet </h1>
-<h2> Calculadora de Calorias </h2> <br>
+<h1> Smart Diet </h1> <br>
+
+<h2> Calculadora de Calorias </h2>
+  
   <div id="calculo">
    <p>Peso (Quilos):</p>
-  <input type="text" id="peso" name="peso"><br><br>
+  <input type="text" id="peso" name="peso"><br>
   <p id="asa">Altura (Centímetros):</p>
-  <input type="text" id="altura" name="altura"><br><br>
+  <input type="text" id="altura" name="altura"><br>
    <p>Idade:</p>
-  <input type="text" id="idade" name="idade"><br><br>
+  <input type="text" id="idade" name="idade"><br>
   <p>Sexo:</p>
   <input type="radio" id="masculino" name="sexo" value="masculino" checked> <label for="masculino">Masculino</label>
-  <input type="radio" id="feminino" name="sexo" value="feminino"> <label for="feminino">Feminino</label><br><br>
+  <input type="radio" id="feminino" name="sexo" value="feminino"> <label for="feminino">Feminino</label>
    <p>Meta (Quilos):</p>
-  <input type="text" id="meta" name="meta"><br><br>
+  <input type="text" id="meta" name="meta"><br>
   <p>Tempo (Semanas):</p>
   <input type="text" id="tempo" name="tempo"><br><br>
    <button onclick = calculaBasal()>Calcular</button><br>
    <p></p>
    <button onclick= redirecionar(url)>Dieta Recomendada</button> <br>
+   
    </div>
  <script>
 
@@ -66,17 +69,29 @@
     }
     assertEqual(calMeta, "Teste Meta");
 
-    if (calMeta > 1000 && peso > meta){
+    if (calMeta > 1000 && calMeta < 1300){
       url = "/dieta/1";
   }
 
-    else if (calMeta > 1000 && peso < meta){
+    else if (calMeta > 1300 && calMeta < 1750){
     url = "/dieta/2";
+  }
+
+  else if (calMeta > 1750 && calMeta < 2100){
+    url = "/dieta/3";
+  }  
+
+  else if (calMeta > 2100 && calMeta < 2600){
+    url = "/dieta/4";
+  }
+
+  else if (calMeta > 2600){
+    url = "/dieta/5";
   }
 
 }
 
-function assertEqual(actual, t'estName) {
+function assertEqual(actual, testName) {
 	if (isNaN(actual)) {
 		//log a passing message
 		console.log ('Failed: ' + testName + '; actual value: ' + actual + '; expected value: Number');
@@ -85,11 +100,12 @@ function assertEqual(actual, t'estName) {
 		console.log('Passed!');
 	}
 }
+ 
 
 function redirecionar(url){
  
   if (url == null){
-    window.location.assign("/");
+    window.location.assign("/calculadora");
     return;
   }
 

@@ -10,39 +10,53 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_01_232946) do
+ActiveRecord::Schema.define(version: 2020_12_06_032453) do
+
+    idd = "idade"
+    sx = "sexo"
 
   create_table "calculadoras", force: :cascade do |t|
     t.integer "peso"
     t.float "altura"
-    t.integer "idade"
+    t.integer idd
     t.integer "meta"
-    t.string "sexo"
+    t.string sx
     t.integer "tempo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "dieta", force: :cascade do |t|
-    t.string "nome"
-    t.string "cafe"
-    t.string "almoco"
-    t.string "lanche"
-    t.string "jantar"
-    t.string "bebida"
-    t.string "extra"
-    t.integer "kcal"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table "consulta", force: :cascade do |k|
+    k.string "nome"
+    k.string "sexo"
+    k.string "email"
+    k.string "profissional"
+    k.text "descricao"
+    k.integer "idade"
+    k.datetime "created_at", precision: 6, null: false
+    k.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "nutricionista", force: :cascade do |t|
-    t.text "nome"
-    t.integer "crn"
-    t.text "email"
-    t.integer "exp"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table "dieta", force: :cascade do |s|
+    s.string "nome"
+    s.string "cafe"
+    s.string "almoco"
+    s.string "lanche"
+    s.string "jantar"
+    s.string "bebida"
+    s.string "extra"
+    s.integer "kcal"
+    s.datetime "created_at", precision: 6, null: false
+    s.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "nutricionista", force: :cascade do |n|
+    n.text "nome"
+    n.integer "crn"
+    n.text "email"
+    n.integer "exp"
+    n.datetime "created_at", precision: 6, null: false
+    n.datetime "updated_at", precision: 6, null: false
   end
 
 end
