@@ -19,23 +19,13 @@ require 'rails_helper'
    end
 
    describe Nutricionistum do 
-    it "é inválido caso já exista um e-mail igual" do 
+    it "é inválido caso já exista um e-mail ou CRN igual" do 
      nutricionistum =  Nutricionistum.create( nome: 'Steve', 
       id: '12', email: 'contato@ironmaiden.com', exp: '12' ) 
      nutricionistum = Nutricionistum.new( nome: 'Bruce', 
-      id: '1', email: 'contato@ironmaiden.com', exp: '12' ) 
+      id: '12', email: 'contato@ironmaiden.com', exp: '12' ) 
      nutricionistum.valid? 
      expect(nutricionistum.errors[:email]).to include('has already been taken')
-    end 
-   end
-
-   describe Nutricionistum do 
-    it "é inválido caso já exista um CRN igual" do 
-     nutricionistum =  Nutricionistum.create( nome: 'Steve', 
-      id: '1', email: 'contato@ironmaiden.com', exp: '12' ) 
-     nutricionistum = Nutricionistum.new( nome: 'Bruce', 
-      id: '1', email: 'contato2@ironmaiden.com', exp: '12' ) 
-     nutricionistum.valid? 
      expect(nutricionistum.errors[:id]).to include('has already been taken')
     end 
    end

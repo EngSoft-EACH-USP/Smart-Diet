@@ -2163,3 +2163,65 @@ Processing by WelcomeController#index as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
 Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 1967)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mNutricionistum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mNutricionistum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."email" = ? LIMIT ?[0m  [["email", "bruce@ironmaiden.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mNutricionistum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mNutricionistum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mNutricionistum Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mNutricionistum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."email" = ? LIMIT ?[0m  [["email", "contato@ironmaiden.com"], ["LIMIT", 1]]
+  [1m[36mNutricionistum Create (1.0ms)[0m  [1m[32mINSERT INTO "nutricionista" ("id", "nome", "email", "exp", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 12], ["nome", "Steve"], ["email", "contato@ironmaiden.com"], ["exp", 12], ["created_at", "2020-12-06 22:31:15.280375"], ["updated_at", "2020-12-06 22:31:15.280375"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mNutricionistum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mNutricionistum Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "nutricionista" WHERE "nutricionista"."email" = ? LIMIT ?[0m  [["email", "contato@ironmaiden.com"], ["LIMIT", 1]]
+  [1m[35m (5.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 19:31:15 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1048)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 26.7ms | ActiveRecord: 0.4ms | Allocations: 4635)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 19:31:15 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.1ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.4ms | Allocations: 1786)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 19:31:15 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1768)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 3671)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 19:31:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 1967)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
