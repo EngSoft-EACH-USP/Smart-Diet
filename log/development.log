@@ -22466,3 +22466,56 @@ Completed 200 OK in 71ms (Views: 63.8ms | ActiveRecord: 0.0ms | Allocations: 674
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (31.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (106.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "calculadoras"[0m
+  [1m[35m (124.9ms)[0m  [1m[35mCREATE TABLE "calculadoras" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "peso" integer, "altura" float, "idade" integer, "meta" integer, "sexo" varchar, "tempo" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (167.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "consulta"[0m
+  [1m[35m (110.6ms)[0m  [1m[35mCREATE TABLE "consulta" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "sexo" varchar, "email" varchar, "profissional" varchar, "descricao" text, "idade" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (118.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "dieta"[0m
+  [1m[35m (110.2ms)[0m  [1m[35mCREATE TABLE "dieta" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "cafe" varchar, "almoco" varchar, "lanche" varchar, "jantar" varchar, "bebida" varchar, "extra" varchar, "kcal" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (123.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "nutricionista"[0m
+  [1m[35m (130.4ms)[0m  [1m[35mCREATE TABLE "nutricionista" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" text, "crn" integer, "email" text, "exp" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "3265c225565accab61168cd52bdfe6d7f51bbf7f"], ["updated_at", "2020-12-06 21:22:37.106159"], ["key", "schema_sha1"]]
+  [1m[35m (117.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (132.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "calculadoras"[0m
+  [1m[35m (117.6ms)[0m  [1m[35mCREATE TABLE "calculadoras" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "peso" integer, "altura" float, "idade" integer, "meta" integer, "sexo" varchar, "tempo" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (125.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "consulta"[0m
+  [1m[35m (133.8ms)[0m  [1m[35mCREATE TABLE "consulta" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "sexo" varchar, "email" varchar, "profissional" varchar, "descricao" text, "idade" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (136.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "dieta"[0m
+  [1m[35m (98.3ms)[0m  [1m[35mCREATE TABLE "dieta" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "cafe" varchar, "almoco" varchar, "lanche" varchar, "jantar" varchar, "bebida" varchar, "extra" varchar, "kcal" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (120.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "nutricionista"[0m
+  [1m[35m (110.7ms)[0m  [1m[35mCREATE TABLE "nutricionista" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" text, "crn" integer, "email" text, "exp" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "development"], ["updated_at", "2020-12-06 21:22:38.310501"], ["key", "environment"]]
+  [1m[35m (95.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2020-12-06 21:22:38.415794"], ["key", "environment"]]
+  [1m[35m (101.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.5ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "3265c225565accab61168cd52bdfe6d7f51bbf7f"], ["updated_at", "2020-12-06 21:22:38.525304"], ["key", "schema_sha1"]]
+  [1m[35m (103.8ms)[0m  [1m[36mcommit transaction[0m

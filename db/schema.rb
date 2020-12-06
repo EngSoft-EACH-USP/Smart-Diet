@@ -12,12 +12,15 @@
 
 ActiveRecord::Schema.define(version: 2020_12_06_032453) do
 
+    idd = "idade"
+    sx = "sexo"
+
   create_table "calculadoras", force: :cascade do |t|
     t.integer "peso"
     t.float "altura"
-    t.integer "idade"
+    t.integer idd
     t.integer "meta"
-    t.string "sexo"
+    t.string sx
     t.integer "tempo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
