@@ -1,7 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/calculadora_helper_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/consulta_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
         1,
         null,
         null,
@@ -10,12 +15,18 @@
         null,
         null,
         null,
+        1,
+        0,
         null,
+        null,
+        1,
+        1,
+        0,
         null,
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/rails_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -81,14 +92,14 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/environment.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "D:/Estudos/trab/Smart-Diet/config/application.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/application.rb": [
         1,
         null,
         1,
@@ -109,13 +120,13 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/boot.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "D:/Estudos/trab/Smart-Diet/config/environments/test.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/environments/test.rb": [
         null,
         null,
         null,
@@ -166,7 +177,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/application_controller_renderer.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -176,7 +187,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/assets.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -192,7 +203,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/backtrace_silencers.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -201,7 +212,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/content_security_policy.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -233,20 +244,20 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/cookies_serializer.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/filter_parameter_logging.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/inflections.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -264,13 +275,13 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/mime_types.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/initializers/wrap_parameters.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -286,9 +297,11 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/config/routes.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/config/routes.rb": [
         1,
+        null,
         1,
+        null,
         1,
         1,
         1,
@@ -301,216 +314,393 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/application_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/calculadora_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/calculadora_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/calculadoras_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/calculadoras_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/calculator_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/calculator_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/dieta_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/consulta_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/nutricionista_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/dieta_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/helpers/welcome_helper.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/nutricionista_helper.rb": [
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/calculadoras_helper_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/helpers/welcome_helper.rb": [
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/calculator_helper_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/consultum.rb": [
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/dieta_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/nutricionista_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/spec/models/calculadora_spec.rb": [
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/lib/calculadora.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/app/models/calculadora.rb": [
-        1,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/app/models/application_record.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/models/dieta_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/calculadora_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/calculadoras_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/calculator_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/consulta_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/dieta_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/nutricionista_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/calculadora_spec.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/lib/calculadora.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/calculadora.rb": [
+        1,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/consultum_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/dieta_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/dieta.rb": [
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/dietum_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/dietum.rb": [
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/nutricionista_spec.rb": [
         1
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/models/dietum_spec.rb": [
-        1
-      ],
-      "D:/Estudos/trab/Smart-Diet/spec/models/nutricionista_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/app/models/nutricionistum.rb": [
-        1,
-        1,
-        1,
-        1,
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/nutricionistum.rb": [
         1,
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/requests/calculadora_request_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/calculadora_request_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/requests/calculadoras_request_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/calculadoras_request_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/requests/calculator_request_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/calculator_request_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/requests/dieta_request_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/consulta_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        10,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/dieta_request_spec.rb": [
         1,
         null,
         1,
@@ -531,7 +721,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/requests/nutricionista_request_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/nutricionista_request_spec.rb": [
         1,
         null,
         1,
@@ -545,7 +735,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/requests/welcome_request_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/requests/welcome_request_spec.rb": [
         1,
         null,
         1,
@@ -559,7 +749,130 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/views/calculadora/index.html.erb_spec.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/routing/consulta_routing_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/consulta_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/calculadora/index.html.erb_spec.rb": [
         null,
         null,
         null,
@@ -571,20 +884,160 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/views/dieta/index.html.erb_spec.rb": [
-        1
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/consulta/edit.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/views/dieta/show.html.erb_spec.rb": [
-        1
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/consulta/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
       ],
-      "D:/Estudos/trab/Smart-Diet/spec/views/welcome/index.html.erb_spec.rb": [
-        1
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/consulta/new.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/controllers/application_controller.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/consulta/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/dieta/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
         1,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/controllers/dieta_controller.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/dieta/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/welcome/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb": [
         1,
         1,
         1,
@@ -598,11 +1051,7 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/models/dieta.rb": [
-        1,
-        null
-      ],
-      "D:/Estudos/trab/Smart-Diet/app/controllers/nutricionista_controller.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/nutricionista_controller.rb": [
         1,
         null,
         1,
@@ -633,13 +1082,13 @@
         null,
         null
       ],
-      "D:/Estudos/trab/Smart-Diet/app/controllers/welcome_controller.rb": [
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/welcome_controller.rb": [
         1,
         1,
         null,
         null
       ]
     },
-    "timestamp": 1607293875
+    "timestamp": 1607301250
   }
 }

@@ -14,6 +14,7 @@
   <div class="field">
     <%= form.label :nome %>
     <%= form.text_field :nome, required: true %>
+    
   </div>
 
   <div class="field">
@@ -26,17 +27,19 @@
   </div>
 
   <div class="field">
-
     <%= form.label :idade %>
     <%= form.number_field :idade, max: 130, min: 14, required: true %>
+    <br>
   </div>
 
   <div class="field">
     <%= form.label :email %>
     <%= form.text_field :email, required: true %>
+    <br>
   </div>
 
   <div class="field">
+    <br>
     <%= form.label :profissional %>
     <p></p>
     <%= form.radio_button(:profissional, "Nutricionista", :checked => "checked") %>
@@ -47,10 +50,12 @@
 
   <div class="field">
     <%= form.label :descricao %>
+    <br>
     <%= form.text_area :descricao, size: "50x10", required: true  %>
   </div>
 
   <div class="actions">
+    <br>
     <%= form.submit %>
   </div>
 <% end %>
