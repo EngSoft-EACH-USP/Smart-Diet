@@ -16,12 +16,12 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
         1,
-        0,
+        1,
         null,
         null,
         null
@@ -309,6 +309,9 @@
         1,
         1,
         1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -367,9 +370,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/calculadoras_helper_spec.rb": [
@@ -384,9 +384,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/calculator_helper_spec.rb": [
@@ -401,9 +398,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/consulta_helper_spec.rb": [
@@ -435,9 +429,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/nutricionista_helper_spec.rb": [
@@ -452,9 +443,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/helpers/welcome_helper_spec.rb": [
@@ -469,9 +457,6 @@
         null,
         null,
         null,
-        null,
-        1,
-        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/calculadora_spec.rb": [
@@ -519,31 +504,49 @@
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/dieta_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/dieta.rb": [
-        1,
-        null
-      ],
-      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/dietum_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/dietum.rb": [
-        1,
-        null
-      ],
-      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/nutricionista_spec.rb": [
         1
       ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/dietum_spec.rb": [
+        1
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/models/nutricionista_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/nutricionistum.rb": [
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         null
@@ -1017,25 +1020,13 @@
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/dieta/index.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+        1
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/dieta/show.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+        1
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/spec/views/welcome/index.html.erb_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
+        1
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/dieta_controller.rb": [
         1,
@@ -1049,6 +1040,10 @@
         null,
         1,
         null,
+        null
+      ],
+      "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/models/dieta.rb": [
+        1,
         null
       ],
       "C:/Users/Dell/Documents/GitHub/Smart-Diet/app/controllers/nutricionista_controller.rb": [
@@ -1089,6 +1084,6 @@
         null
       ]
     },
-    "timestamp": 1607301250
+    "timestamp": 1607303960
   }
 }
