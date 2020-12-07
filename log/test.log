@@ -1565,3 +1565,1208 @@ Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 196
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
   [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:20:55 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 112.6ms | Allocations: 4617)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 119.9ms | Allocations: 5115)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/Dell/Documents/GitHub/Smart-Diet/public/packs-test
+[Webpacker] Hash: 7c71fcf296cd2f16876e
+Version: webpack 4.44.1
+Time: 16738ms
+Built at: 2020-12-06 21:21:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-3e4ad240383d09483b42.js    124 KiB  application  [emitted] [immutable]  application
+js/application-3e4ad240383d09483b42.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-3e4ad240383d09483b42.js js/application-3e4ad240383d09483b42.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 33995ms (Views: 33922.4ms | ActiveRecord: 1.1ms | Allocations: 14982)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:21:30 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.5ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 857)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 61.4ms | ActiveRecord: 0.8ms | Allocations: 2868)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:21:30 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 13.3ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 25.9ms | ActiveRecord: 1.2ms | Allocations: 1828)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:21:30 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1284)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 30.6ms | ActiveRecord: 0.8ms | Allocations: 6989)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:21:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 40.8ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 57ms (Views: 53.5ms | ActiveRecord: 0.0ms | Allocations: 2010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (28.0ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:21:30.710536"], ["updated_at", "2020-12-07 00:21:30.710536"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.4ms | Allocations: 1667)
+  Rendered consulta/edit.html.erb (Duration: 10.3ms | Allocations: 2442)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (3.5ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:21:30.839202"], ["updated_at", "2020-12-07 00:21:30.839202"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:21:30.849892"], ["updated_at", "2020-12-07 00:21:30.849892"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 27.1ms | Allocations: 550)
+  [1m[35m (2.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 9.6ms | Allocations: 1627)
+  Rendered consulta/new.html.erb (Duration: 10.3ms | Allocations: 1688)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (3.3ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:21:30.938683"], ["updated_at", "2020-12-07 00:21:30.938683"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 1.6ms | Allocations: 288)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.3ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:22:29 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 20.0ms | Allocations: 4613)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 23.9ms | Allocations: 5111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 8600)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:22:29 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.6ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:22:29 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.1ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.6ms | Allocations: 1823)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:22:29 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 15.4ms | ActiveRecord: 0.9ms | Allocations: 7008)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:22:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (9.7ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:22:29.653690"], ["updated_at", "2020-12-07 00:22:29.653690"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.3ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 11.1ms | Allocations: 2441)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.9ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:22:29.688202"], ["updated_at", "2020-12-07 00:22:29.688202"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.2ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:22:29.692368"], ["updated_at", "2020-12-07 00:22:29.692368"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 1.6ms | Allocations: 551)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 8.5ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 8.9ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:22:29.728194"], ["updated_at", "2020-12-07 00:22:29.728194"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 1.7ms | Allocations: 287)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.4ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:23:42 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 20.2ms | Allocations: 4610)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 24.2ms | Allocations: 5108)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 44.3ms | ActiveRecord: 0.0ms | Allocations: 8597)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:23:42 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 0.7ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:23:42 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.1ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.6ms | Allocations: 1823)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:23:42 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 15.4ms | ActiveRecord: 0.7ms | Allocations: 7008)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:23:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (42.8ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:23:42.728432"], ["updated_at", "2020-12-07 00:23:42.728432"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.2ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 18.9ms | Allocations: 2441)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:23:42.809742"], ["updated_at", "2020-12-07 00:23:42.809742"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.1ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:23:42.813204"], ["updated_at", "2020-12-07 00:23:42.813204"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 1.6ms | Allocations: 551)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 5.5ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 5.8ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.3ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:23:42.846553"], ["updated_at", "2020-12-07 00:23:42.846553"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 1.3ms | Allocations: 287)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.3ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:24:14 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 20.0ms | Allocations: 4611)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 24.0ms | Allocations: 5109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 8598)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:24:14 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.6ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:24:14 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.1ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.6ms | Allocations: 1815)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:24:14 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 15.1ms | ActiveRecord: 0.9ms | Allocations: 7010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:24:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (12.2ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:24:14.677055"], ["updated_at", "2020-12-07 00:24:14.677055"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.5ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 9.8ms | Allocations: 2441)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:24:14.713881"], ["updated_at", "2020-12-07 00:24:14.713881"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.1ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:24:14.717309"], ["updated_at", "2020-12-07 00:24:14.717309"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 1.6ms | Allocations: 550)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.1ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 3.4ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:24:14.747144"], ["updated_at", "2020-12-07 00:24:14.747144"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 1.8ms | Allocations: 288)
+  [1m[35m (1.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.2ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.3ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:24:49 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 22.0ms | Allocations: 4611)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 27.5ms | Allocations: 5109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 47.2ms | ActiveRecord: 0.0ms | Allocations: 8598)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:24:49 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.7ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 1.1ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:24:49 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.1ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.3ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.7ms | Allocations: 1815)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:24:50 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 16.3ms | ActiveRecord: 0.8ms | Allocations: 7010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:24:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (12.6ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:24:50.259090"], ["updated_at", "2020-12-07 00:24:50.259090"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.5ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 9.9ms | Allocations: 2441)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:24:50.297779"], ["updated_at", "2020-12-07 00:24:50.297779"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.2ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:24:50.301923"], ["updated_at", "2020-12-07 00:24:50.301923"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 2.0ms | Allocations: 550)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 5.3ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 5.6ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.8ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:24:50.336357"], ["updated_at", "2020-12-07 00:24:50.336357"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 0.9ms | Allocations: 288)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.4ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:30:08 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 28.7ms | Allocations: 4613)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 35.7ms | Allocations: 5111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 83ms (Views: 66.7ms | ActiveRecord: 0.0ms | Allocations: 8600)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:30:08 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.6ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 1.0ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:30:08 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.8ms | Allocations: 1815)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:30:08 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 16.3ms | ActiveRecord: 1.1ms | Allocations: 7010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:30:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (2.1ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:30:09.160821"], ["updated_at", "2020-12-07 00:30:09.160821"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.8ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 11.4ms | Allocations: 2441)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.3ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:30:09.201281"], ["updated_at", "2020-12-07 00:30:09.201281"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.1ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:30:09.204607"], ["updated_at", "2020-12-07 00:30:09.204607"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 1.5ms | Allocations: 550)
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 4.0ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 4.3ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.6ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:30:09.236590"], ["updated_at", "2020-12-07 00:30:09.236590"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 0.9ms | Allocations: 288)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.4ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:32:48 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 20.9ms | Allocations: 4613)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 25.1ms | Allocations: 5111)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 44.3ms | ActiveRecord: 0.0ms | Allocations: 8600)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:32:48 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.6ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:32:48 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.1ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 1815)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:32:48 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 14.7ms | ActiveRecord: 0.9ms | Allocations: 7010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:32:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.7ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:32:49.048657"], ["updated_at", "2020-12-07 00:32:49.048657"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.4ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 10.4ms | Allocations: 2441)
+  [1m[35m (1.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.6ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:32:49.077162"], ["updated_at", "2020-12-07 00:32:49.077162"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.2ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:32:49.081254"], ["updated_at", "2020-12-07 00:32:49.081254"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 1.7ms | Allocations: 550)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.1ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 3.4ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.5ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:32:49.113494"], ["updated_at", "2020-12-07 00:32:49.113494"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 1.3ms | Allocations: 288)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.2ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.2ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:33:25 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 19.8ms | Allocations: 4611)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 24.0ms | Allocations: 5109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 43.0ms | ActiveRecord: 0.0ms | Allocations: 8598)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:33:25 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.4ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.7ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:33:25 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.7ms | Allocations: 1816)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:33:25 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 18.5ms | ActiveRecord: 1.0ms | Allocations: 7010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:33:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (2.1ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:33:26.137638"], ["updated_at", "2020-12-07 00:33:26.137638"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 5.0ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 11.3ms | Allocations: 2441)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.3ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:33:26.163321"], ["updated_at", "2020-12-07 00:33:26.163321"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.2ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:33:26.166653"], ["updated_at", "2020-12-07 00:33:26.166653"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 3.4ms | Allocations: 550)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.3ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 3.7ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.5ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:33:26.196020"], ["updated_at", "2020-12-07 00:33:26.196020"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 0.8ms | Allocations: 288)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.2ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mConsultum Load (0.3ms)[0m  [1m[34mSELECT "consulta".* FROM "consulta" WHERE "consulta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/consulta/new" for 127.0.0.1 at 2020-12-06 21:34:09 -0300
+Processing by ConsultaController#new as HTML
+  Rendering consulta/new.html.erb within layouts/application
+  Rendered consulta/_form.html.erb (Duration: 21.6ms | Allocations: 4611)
+  Rendered consulta/new.html.erb within layouts/application (Duration: 25.8ms | Allocations: 5109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 8598)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "consulta"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/index" for 127.0.0.1 at 2020-12-06 21:34:09 -0300
+Processing by DietaController#index as HTML
+  Rendering dieta/index.html.erb within layouts/application
+  [1m[36mDieta Load (0.3ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta"[0m
+  Rendered dieta/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.6ms | Allocations: 2861)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/dieta/show" for 127.0.0.1 at 2020-12-06 21:34:09 -0300
+Processing by DietaController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mDieta Load (0.2ms)[0m  [1m[34mSELECT "dieta".* FROM "dieta" WHERE "dieta"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (Duration: 0.2ms | Allocations: 3)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.8ms | Allocations: 1815)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/nutricionista/new" for 127.0.0.1 at 2020-12-06 21:34:09 -0300
+Processing by NutricionistaController#new as HTML
+  Rendering nutricionista/new.html.erb within layouts/application
+  Rendered nutricionista/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 14.7ms | ActiveRecord: 0.8ms | Allocations: 7010)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/welcome/index" for 127.0.0.1 at 2020-12-06 21:34:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 99)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 2007)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (28.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "MyString"], ["sexo", "MyString"], ["email", "MyString"], ["profissional", "MyString"], ["descricao", "MyText"], ["idade", 1], ["created_at", "2020-12-07 00:34:10.086346"], ["updated_at", "2020-12-07 00:34:10.086346"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/edit.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.7ms | Allocations: 1666)
+  Rendered consulta/edit.html.erb (Duration: 10.7ms | Allocations: 2441)
+  [1m[35m (1.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.4ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:34:10.140770"], ["updated_at", "2020-12-07 00:34:10.140770"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (0.2ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:34:10.144089"], ["updated_at", "2020-12-07 00:34:10.144089"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/index.html.erb
+  Rendered consulta/index.html.erb (Duration: 2.3ms | Allocations: 550)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendering consulta/new.html.erb
+  Rendered consulta/_form.html.erb (Duration: 3.2ms | Allocations: 1626)
+  Rendered consulta/new.html.erb (Duration: 3.4ms | Allocations: 1687)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mConsultum Create (1.6ms)[0m  [1m[32mINSERT INTO "consulta" ("nome", "sexo", "email", "profissional", "descricao", "idade", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "Nome"], ["sexo", "Sexo"], ["email", "Email"], ["profissional", "Profissional"], ["descricao", "MyText"], ["idade", 2], ["created_at", "2020-12-07 00:34:10.172185"], ["updated_at", "2020-12-07 00:34:10.172185"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  Rendering consulta/show.html.erb
+  Rendered consulta/show.html.erb (Duration: 0.8ms | Allocations: 288)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
