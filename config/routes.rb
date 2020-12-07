@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   get 'dieta/index'
   get 'dieta/' => "dieta#index"
   get 'dieta/:id' => "dieta#show"
+  get "/welcome/nutricionista/new" => 'nutricionista#new'
+  get "/welcome/calculadora" => 'calculadoras#index'
+  get "/welcome/consulta/new" => 'consulta#new'
   root "welcome#index"
 
   
